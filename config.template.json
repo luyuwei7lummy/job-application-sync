@@ -1,0 +1,19 @@
+{
+  "_说明": "把本文件复制为 config.json 后再填写。程序不带任何默认手机号或路径，空着就拒绝运行。以 _ 开头的键只给人看，程序不读取。不要使用别人的 config.json。",
+  "_phone": "填你自己的 11 位手机号，三个网站都用这个号登录。",
+  "phone": "",
+  "_excel": "投递记录工作簿的完整路径。文件必须已经存在，且有一个叫「投递记录」的工作表。运行前先关掉 Excel。",
+  "excel": "",
+  "_edge": "本机 msedge.exe 的完整路径。可在开始菜单里对 Microsoft Edge 点右键，打开文件所在位置查看。",
+  "edge": "",
+  "_port": "Edge 调试端口，填一个 1 到 65535 的整数。本机这个端口没被占用即可，常见写法是 9333。",
+  "port": null,
+  "_max_pages": "每个列表最多翻多少页，填正整数。",
+  "max_pages": null,
+  "_debug_dump": "填 true 或 false。true 时把当次接口数据和截图存到 debug 目录，方便排查抓不到数据的问题。",
+  "debug_dump": null,
+  "_boss_contact_include": "只作用于 Boss「沟通过」。职位名包含其中任意一个词才导入。留空数组表示不过滤、全部导入。",
+  "boss_contact_include": [],
+  "_boss_contact_exclude": "只作用于 Boss「沟通过」。职位名包含其中任意一个词就丢弃。留空数组表示没有排除词。",
+  "boss_contact_exclude": []
+}

@@ -1,0 +1,15 @@
+# 每个人自己的配置，里面有手机号和本机路径
+config.json
+
+# 登录 Cookie。体积大，而且等于账号登录状态
+edge_profile/
+
+# 本机虚拟环境和缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 运行产生的个人数据：投递内容、截图、日志、写入前备份
+debug/
+logs/
+backups/

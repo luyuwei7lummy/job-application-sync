@@ -1,0 +1,8 @@
+# 直接安装：
+#   python -m venv .venv
+#   .venv\Scripts\python -m pip install -r requirements.txt
+#
+# 只需要这两个。et-xmlfile 会被 openpyxl 自动带上。
+# 界面用的 tkinter 是 Python 自带的，不用装。
+openpyxl==3.1.3
+websocket-client==1.6.1
