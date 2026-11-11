@@ -57,8 +57,8 @@ python -m venv .venv
 .venv\Scripts\python -m pip install -r requirements.txt
 ```
 
-3. 把 `config.template.json` 复制为 `config.json`，用记事本填你自己的手机号、Edge 路径和下面这份表格的路径。
-4. 把 `投递记录模板.xlsx` 复制到别的文件夹，例如「文档」。`config.json` 的 `excel` 填这个副本的完整路径。不要直接用程序目录里的模板，以免以后更新代码时和你的投递数据混在一起。
+3. 把 `投递记录模板.xlsx` 复制到别的文件夹，例如「文档」。`config.json` 的 `excel` 填这个副本的完整路径。不要直接用程序目录里的模板，以免以后更新代码时和你的投递数据混在一起。
+4. 把 `config.template.json` 复制为 `config.json`，用记事本填你自己的手机号、Edge 路径和下面这份表格的路径。
 5. 关掉这份 Excel，双击 `同步投递记录.bat`。
 
 模板里已有「投递记录」「统计」「使用说明」三张表，表头、下拉选项和重复投递的颜色都设好了。使用简历的下拉只有「默认简历」和「定制版」，要改成你自己的简历名称时，在 Excel 里选中 G 列，用「数据验证」修改。
