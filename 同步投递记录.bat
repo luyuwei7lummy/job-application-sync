@@ -8,4 +8,8 @@ if not exist ".venv\Scripts\python.exe" (
     exit /b 1
 )
 ".venv\Scripts\python.exe" job_sync.py
+if errorlevel 1 (
+    echo.
+    echo 程序异常退出，上面是错误信息。
+)
 pause
